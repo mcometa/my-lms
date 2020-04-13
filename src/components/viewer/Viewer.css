@@ -1,0 +1,9 @@
+.react-player iframe {
+  height: 100% !important;
+  border-radius: 4px !important;
+}
+
+.react-player {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px !important;
+}

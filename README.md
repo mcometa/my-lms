@@ -1,3 +1,56 @@
+# LMS App (Learning Management System)
+
+This is a work-in-progress.
+
+### Features
+
+- Instructors can upload reading and video content to the platform
+- Instructors can create quizzes
+- Students can register
+- Students after registration can view paid content
+- Students can answer quizzes
+
+### To-dos
+
+- [ ] Create backend using [Strapi](strapi.io)
+- [ ] Course catalog:
+    - [ ] Add course outline button
+        - [ ] Opens a dedicated page where user can see the details of the course
+    - [ ] Add play button
+    - [ ] Add enroll button
+    - [ ] Show course price
+    - [ ] Time start and end
+    - [ ] Show course details on click
+        - [ ] Display course details like
+            - Title,
+            - Topics,
+            - Author
+            - Course Duration,
+            - Price
+    - [ ] Price on courses
+    - [ ] One course must have many lessons or topics
+- [ ] My Courses
+    - [ ] Link shows only for logged in users
+    - [ ] Show only user enrolled course
+- [ ] User management
+    - [ ] Login and authentication
+    - [ ] Account settings
+    - [ ] Logout
+- [ ] Quizzes (?)
+- [ ] Viewer
+    - [ ] On click playlist should change the video link
+    - [ ] Make pagination work
+- [ ] Marketing Pages (landing page)
+    - [ ] Default view when not logged in
+- [ ] Dashboard (nice to have)
+    - [ ] Widgets to show impt data
+        - [ ] Enrolled courses
+        - [ ] Quizzes
+
+
+---
+Below are details from Create React App.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
