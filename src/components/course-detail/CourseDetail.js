@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Container from 'react-bulma-components/lib/components/container';
 import Content from 'react-bulma-components/lib/components/content';
 import Columns from 'react-bulma-components/lib/components/columns';
@@ -13,11 +13,6 @@ import { faStopwatch } from '@fortawesome/free-solid-svg-icons';
 import './CourseDetail.css';
 
 const Course = ({ course }) => {
-  const randomStr = Math.random()
-    .toString(36)
-    .replace(/[^a-z]+/g, '')
-    .substr(0, 5);
-
   const { id } = useParams();
 
   return (
@@ -104,24 +99,34 @@ const Course = ({ course }) => {
         </Columns.Column>
         <Columns.Column size={4}>
           <Container>
-            <Columns classes="is-centered">
-              <Columns.Column />
-              <Columns.Column>
-                <div className="has-text-centered">
+            <Columns centered>
+              <Columns.Column size={8}>
+                <div>
                   <Image
-                    size="128x128"
-                    src="https://source.unsplash.com/featured/128x128/?portrait"
+                    rounded
+                    src="https://source.unsplash.com/featured/256x256/?portrait+lady"
                   />
-                  <p style={{ marginTop: `1em` }}>by Juana Learn</p>
+                  <p className="has-text-centere  d" style={{ marginTop: `1em` }}>
+                    by Juana Learn
+                  </p>
+                  <p style={{ marginTop: `1em` }}>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id officiis animi
+                    libero nisi voluptatibus nemo possimus incidunt, distinctio fugit culpa!
+                  </p>
+                </div>
+                <div style={{ marginTop: `1em` }}>
+                  <Button
+                    fullwidth
+                    color="primary"
+                    size="medium"
+                    renderAs={Link}
+                    to={`/viewer/${id}`}
+                  >
+                    Play this course
+                  </Button>
                 </div>
               </Columns.Column>
-              <Columns.Column />
             </Columns>
-            <div>
-              <Button fullwidth color="primary" size="medium">
-                Play this course
-              </Button>
-            </div>
           </Container>
         </Columns.Column>
       </Columns>
