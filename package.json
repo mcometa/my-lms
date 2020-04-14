@@ -2,11 +2,14 @@
   "name": "my-lms",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mcometa.github.io/my-lms",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy:gh-pages": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -35,6 +38,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "prettier": "^2.0.2"
   },
