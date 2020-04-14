@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/my-lms">
       <App />
     </Router>
   </React.StrictMode>,

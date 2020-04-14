@@ -17,7 +17,7 @@ const App = () => (
 
     <Section>
       <Switch>
-        <Route exact path="/" component={CourseCatalog} />
+        <Route exact path="/courses" component={CourseCatalog} />
         <Route path="/login" component={Login} />
         <Route path="/my-courses" component={MyCourses} />
         <Route path="/course/:id" component={CourseDetail} />

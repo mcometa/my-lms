@@ -50,7 +50,7 @@ const Login = () => (
           </Field>
         </Box>
         <p className="has-text-centered">
-          <Link to="/">&larr; Go back to the Course Catalog</Link>
+          <Link to="/courses">&larr; Go back to the Course Catalog</Link>
         </p>
       </Columns.Column>
     </Columns>

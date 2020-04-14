@@ -14,7 +14,7 @@ const Menu = () => (
     </Navbar.Brand>
     <Navbar.Menu>
       <Navbar.Container position="end">
-        <Navbar.Item renderAs={Link} to="/">
+        <Navbar.Item renderAs={Link} to="/courses">
           Course Catalog
         </Navbar.Item>
         <Navbar.Item renderAs={Link} to="/my-courses">
