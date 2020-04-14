@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Menu = () => (
   <Navbar className="main-navbar has-shadow is-spaced">
     <Navbar.Brand>
-      <Navbar.Item renderAs="a" href="/">
+      <Navbar.Item renderAs="a" href="/my-lms">
         <Heading size={4}>Basic LMS</Heading>
       </Navbar.Item>
       <Navbar.Burger />
