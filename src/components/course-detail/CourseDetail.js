@@ -47,50 +47,52 @@ const Course = ({ course }) => {
             <Heading size={4}>Topics</Heading>
             <ul>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sapiente.
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Distinctio eveniet unde praesentium vitae error voluptas laudantium veniam
                   perferendis.
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Fuga esse ullam provident? Maiores quidem dolorem in excepturi temporibus.
                 </a>
               </li>
               <li>
-                <a href="#">Et suscipit, ratione cumque quis maxime minus ea culpa earum!</a>
+                <a href="#Yes">Et suscipit, ratione cumque quis maxime minus ea culpa earum!</a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Aliquam doloribus doloremque perferendis quae laborum recusandae omnis est sequi?
                 </a>
               </li>
               <li>
-                <a href="#">Quo sunt voluptatum nam non doloremque laborum eaque quae placeat?</a>
+                <a href="#Yes">
+                  Quo sunt voluptatum nam non doloremque laborum eaque quae placeat?
+                </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Dolore molestias quis natus inventore ex, rem dolorem voluptas nulla?
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Suscipit perferendis voluptates id doloribus sed facilis dignissimos voluptas
                   voluptatem.
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Possimus quod a expedita assumenda modi perferendis, natus impedit consequuntur!
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#Yes">
                   Sunt voluptate dolorem, porro praesentium harum excepturi quam alias quis!
                 </a>
               </li>

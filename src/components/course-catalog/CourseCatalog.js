@@ -17,7 +17,7 @@ const CourseCatalog = ({ courses, init, reset }) => {
     return () => {
       reset();
     };
-  }, []);
+  }, [init, reset]);
 
   return (
     <Container>
