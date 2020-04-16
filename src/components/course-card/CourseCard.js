@@ -16,6 +16,7 @@ const CourseCard = ({ course }) => {
 
   return (
     <Columns.Column key={course.id} size={3}>
+      {/* TODO: Change this to a regular div with an onClick event */}
       <Link to={`/course/${course.id}`}>
         <Card>
           <Card.Image size="4by3" src={`${course.thumbnail}?${randomStr}`} />
@@ -44,7 +45,13 @@ const CourseCard = ({ course }) => {
 };
 
 CourseCard.propTypes = {
-  course: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  course: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    thumbnail: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default CourseCard;
